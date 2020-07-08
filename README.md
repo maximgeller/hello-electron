@@ -133,8 +133,26 @@ li:hover {
 	text-decoration: line-through;
 }
 ```
-Finally, we update 
+Finally, we update the `head` of our index and replace the `body` of the HTML.
+```html
+<!doctype html>
+<html  lang="en">
+	<head>
+		<meta  charset="UTF-8">
+		<meta  name="viewport"
+		content="width=device-width, user-scalable=no, initialscale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta  http-equiv="X-UA-Compatible"  content="ie=edge">
+		<link  rel="stylesheet"  href="style.css" />
+		<title>My To Do List App</title>
+	</head>
+	<body>
+		<input  id="input"  placeholder="What needs to be done?">
+		<ul  id="list"></ul>
+	</body>
+	<script  src="app.js"></script>
+</html>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYzMTY3NzksLTMwMzk3MTcxNSwtMj
+eyJoaXN0b3J5IjpbLTE0ODc5NTAzMDksLTMwMzk3MTcxNSwtMj
 AzNTMxOTExMl19
 -->
