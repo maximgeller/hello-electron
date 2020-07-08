@@ -72,10 +72,8 @@ Now we can add our HTML into ```index.html```:
 </html>
 ```
 
-Finally, open command prompt in the project folder, and run `npm test`. You should see a window pop up saying:
+Finally, open command prompt in the project folder, and run `npm test`. You should see a window on your desktop like this: ![electron app](https://cdn.discordapp.com/attachments/659135546060439592/730402981668847646/unknown.png)
 
-# This app is built with HTML!
-### And it's not witchcraft! It's Electron!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzcyNDU4M119
+eyJoaXN0b3J5IjpbNDc5ODgzODg2XX0=
 -->
