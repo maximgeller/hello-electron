@@ -153,8 +153,8 @@ Finally, we update the `head` of our index and replace the `body` of the HTML.
 	<script  src="app.js"></script>
 </html>
 ```
-
+Fire up your app again with `npm test` and check it out! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzczNjIxOTQsLTMwMzk3MTcxNSwtMj
+eyJoaXN0b3J5IjpbLTExMzA4Mzg1NDUsLTMwMzk3MTcxNSwtMj
 AzNTMxOTExMl19
 -->
