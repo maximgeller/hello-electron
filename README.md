@@ -5,10 +5,14 @@ operable program or batch file.```, then download Node.js using the link above. 
 
 ## Setup
 The structure of our app is going to look a bit different to most Enlight tutorial apps.
-Make a folder named `electron-app`, and open command prompt. Open the folder by typing `cd` and then the directory of the folder. It should look something like this: `cd C:\Users\me\Desktop\electron-app`. Once you are inside the folder, run the command `npm init`. It will ask you for the name of the app. By default this is the name of the folder. You can leave everything blank, except for `main```, which you need to change to ```main.js```, and ```test```, which you need to change to ```electron  .``` The ```electron``` is telling Node to run the command "electron" and the ```.``` is telling Node to do that right here in this folder. Once you are finished, open the folder in your favorite editor, such as [VSCode](https://code.visualstudio.com) or [Atom](https://atom.io).
+Make a folder named `electron-app`, and open command prompt. Open the folder by typing `cd` and then the directory of the folder. It should look something like this: `cd C:\Users\me\Desktop\electron-app`. Once you are inside the folder, run the command `npm init`. It will ask you for the name of the app. By default this is the name of the folder. You can leave everything blank, except for `main`, which you need to change to `main.js`, and `test`, which you need to change to `electron  .` The `electron` is telling Node to run the command `electron` and the `.` is telling Node to do that right here for all the files in this folder. Once you are finished, open the folder in your favorite editor, such as [VSCode](https://code.visualstudio.com) or [Atom](https://atom.io).
+
 ## Finally, we actually make the app.
-Create a file called ```main.js```, and put the following code in:
-<pre>const { app, BrowserWindow } = require('electron')
+Create a file called `main.js`, and put the following code in:
+
+``javascript
+
+const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
     // Create the browser window.
@@ -70,5 +74,5 @@ Finally, open command prompt in the project folder, and run ```npm test```. You 
 # This app is built with HTML!
 ### And it's not witchcraft! It's Electron!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDY2NDM1OV19
+eyJoaXN0b3J5IjpbLTMzMjQyMjMzN119
 -->
