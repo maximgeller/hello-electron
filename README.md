@@ -154,7 +154,10 @@ Finally, we update the `head` of our index and replace the `body` of the HTML.
 </html>
 ```
 Fire up your app again with `npm test` and check it out! 
+If this worked for you, you now have the power of a desktop app that provides a home for your to-do list! 
+## Conclusion
+To take this project a step further, can you figure out how to enable storage for to-dos? Additionally, what about creating a shortcut to the app on your desktop?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA4Mzg1NDUsLTMwMzk3MTcxNSwtMj
-AzNTMxOTExMl19
+eyJoaXN0b3J5IjpbMTU1NDc3MDY4MSwtMzAzOTcxNzE1LC0yMD
+M1MzE5MTEyXX0=
 -->
