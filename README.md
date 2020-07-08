@@ -73,8 +73,8 @@ Now we can add our HTML into ```index.html```:
 ```
 Finally, open command prompt in the project folder, and run `npm test`. You should see a window on your desktop like this: ![electron app](https://cdn.discordapp.com/attachments/659135546060439592/730402981668847646/unknown.png)
 # Now what?
-You have just built a desktop application using Electron! That's great and all, but what can you do with it? One idea is to integrate one of any of the other projects on Enlight into this app. In my case, I would love to have my to-do list as a desktop app. Let's pull the source code from the [to-do list tutorial](https://enlight.nyc/projects/to-do) and put it in our markup, style, and script!
+You have just built a desktop application using Electron! That's great and all, but what can you do with it? One idea is to integrate one of any of the other projects on Enlight into this app. In my case, I would love to have my to-do list as a desktop app. Let's pull the source code from the [to-do list tutorial](https://enlight.nyc/projects/to-do) and put it in our markup, style, and script! Let
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUzMTkxMTJdfQ==
+eyJoaXN0b3J5IjpbLTMwMzk3MTcxNSwtMjAzNTMxOTExMl19
 -->
