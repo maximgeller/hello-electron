@@ -97,7 +97,7 @@ function  removeItem(e) {
 	e.target.parentElement.removeChild(e.target);
 }
 ```
-Next, we do the style.
+Don't remove the `index.js` file, you still need that for the app to acually start up. ThNext, we do the style.
 ```css
 /* style.css */
 html {
@@ -135,12 +135,13 @@ li:hover {
 ```
 Finally, we update the `head` of our index and replace the `body` of the HTML.
 ```html
+<!-- index.html -->
 <!doctype html>
 <html  lang="en">
 	<head>
 		<meta  charset="UTF-8">
 		<meta  name="viewport"
-		content="width=device-width, user-scalable=no, initialscale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta  http-equiv="X-UA-Compatible"  content="ie=edge">
 		<link  rel="stylesheet"  href="style.css" />
 		<title>My To Do List App</title>
@@ -152,7 +153,8 @@ Finally, we update the `head` of our index and replace the `body` of the HTML.
 	<script  src="app.js"></script>
 </html>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc5NTAzMDksLTMwMzk3MTcxNSwtMj
-AzNTMxOTExMl19
+eyJoaXN0b3J5IjpbLTkzNDY5NTk0OCwtMzAzOTcxNzE1LC0yMD
+M1MzE5MTEyXX0=
 -->
