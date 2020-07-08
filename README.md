@@ -99,9 +99,42 @@ function  removeItem(e) {
 ```
 Next, we do the style.
 ```css
+/* style.css */
+html {
+	font-family: "Avenir Next", Helevetica, sans-serif;
+	text-align: center;
+}
+  
+body {
+	max-width: 500px;
+	margin: 0  auto;
+}
+  
+input {
+	padding-top: 30px;
+	width: 500px;
+	height: 60px;
+	font-size: 40px;
+	border: 0;
+}
 
+input:focus {
+	outline:none;
+} 
 
+li {
+	text-align: left;
+	font-size: 40px;
+	list-style: none;
+	margin: 0;
+}
+
+li:hover {
+	text-decoration: line-through;
+}
+```
+Finally, we update 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MjYyMDcxLC0zMDM5NzE3MTUsLTIwMz
-UzMTkxMTJdfQ==
+eyJoaXN0b3J5IjpbLTEwMjYzMTY3NzksLTMwMzk3MTcxNSwtMj
+AzNTMxOTExMl19
 -->
