@@ -7,7 +7,7 @@ operable program or batch file.```, then download Node.js using the link above. 
 The structure of our app is going to look a bit different to most Enlight tutorial apps.
 Make a folder named `electron-app`, and open command prompt. Open the folder by typing `cd` and then the directory of the folder. It should look something like this: `cd C:\Users\me\Desktop\electron-app`. Once you are inside the folder, run the command `npm init`. It will ask you for the name of the app. By default this is the name of the folder. You can leave everything blank, except for `main`, which you need to change to `main.js`, and `test`, which you need to change to `electron  .` The `electron` is telling Node to run the command `electron` and the `.` is telling Node to do that right here for all the files in this folder. Once you are finished, open the folder in your favorite editor, such as [VSCode](https://code.visualstudio.com) or [Atom](https://atom.io).
 
-## Now, we actually make the app.
+## Making the app
 Create a file called `main.js`, and put the following code in:
 
 ```javascript
@@ -72,7 +72,9 @@ Now we can add our HTML into ```index.html```:
 </html>
 ```
 Finally, open command prompt in the project folder, and run `npm test`. You should see a window on your desktop like this: ![electron app](https://cdn.discordapp.com/attachments/659135546060439592/730402981668847646/unknown.png)
+# Now what?
+You have just built a desktop application using Ele
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTYwNjQ1MV19
+eyJoaXN0b3J5IjpbMjU1ODAzNTQ5XX0=
 -->
