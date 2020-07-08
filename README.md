@@ -73,7 +73,7 @@ Now we can add our HTML into ```index.html```:
 ```
 Finally, open command prompt in the project folder, and run `npm test`. You should see a window on your desktop like this: ![electron app](https://cdn.discordapp.com/attachments/659135546060439592/730402981668847646/unknown.png)
 # Now what?
-You have just built a desktop application using Electron! That's great and all, but what can you do with it? One idea is to integrate one of any of the other projects on Enlight into this app. In my case, I would love to have my to-do list as a desktop app. Let's pull the source code from the [to-do list tutorial](https://enlight.nyc/projects/to-do) and put it in our markup, style, and script! Let's create two new files, `app.js` and `style.css` for the style and script of the to-do list. We'll add the necessary HTML to the already existing `index.html` file! Have a look at the source code and write your files in a similar way, like this:
+You have just built a desktop application using Electron! That's great and all, but what can you do with it? One idea is to integrate one of any of the other projects on Enlight into this app. In my case, I would love to have my to-do list as a desktop app. Let's pull the source code from the [to-do list tutorial](https://enlight.nyc/projects/to-do) and put it in our markup, style, and script! Let's create two new files, `app.js` and `style.css` for the style and script of the to-do list. We'll add the necessary HTML to the already existing `index.html` file! If you're interested in how this to-do list actually works under the hood, go through that tutorial first! For now though, have a look at the source code and write your files in a similar way, like this:
 ```javascript
 // app.js
 function  newItem() {
@@ -97,7 +97,7 @@ function  removeItem(e) {
 	e.target.parentElement.removeChild(e.target);
 }
 ```
-Don't remove the `index.js` file, you still need that for the app to acually start up. ThNext, we do the style.
+Don't remove the `index.js` file, you still need that for the app to acually start up. The `app.js` script is the portion that makes the to-do list itself run. Next, we do the style.
 ```css
 /* style.css */
 html {
@@ -155,6 +155,6 @@ Finally, we update the `head` of our index and replace the `body` of the HTML.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDY5NTk0OCwtMzAzOTcxNzE1LC0yMD
-M1MzE5MTEyXX0=
+eyJoaXN0b3J5IjpbNTIxNDA0MDU2LC0zMDM5NzE3MTUsLTIwMz
+UzMTkxMTJdfQ==
 -->
