@@ -10,7 +10,7 @@ Make a folder named `electron-app`, and open command prompt. Open the folder by 
 ## Finally, we actually make the app.
 Create a file called `main.js`, and put the following code in:
 
-``javascript
+```javascript
 
 const { app, BrowserWindow } = require('electron')
 
@@ -51,28 +51,31 @@ app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
         createWindow()
     }
-})</pre>
+})
+```
+
 Now we can add our HTML into ```index.html```:
-<pre>
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-    &lt;title&gt;electron-app&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;This app is built with HTML!&lt;/h1&gt;
-    &lt;h3&gt;And it's not witchcraft! It's Electron!&lt;/h3&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-Finally, open command prompt in the project folder, and run ```npm test```. You should see a window pop up saying:
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>electron-app</title>
+</head>
+<body>
+    <h1>This app is built with HTML!</h1>
+    <h3>And it's not witchcraft! It's Electron!</h3>
+</body>
+</html>
+```
+
+Finally, open command prompt in the project folder, and run `npm test`. You should see a window pop up saying:
 
 # This app is built with HTML!
 ### And it's not witchcraft! It's Electron!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjQyMjMzN119
+eyJoaXN0b3J5IjpbLTQyMzcyNDU4M119
 -->
